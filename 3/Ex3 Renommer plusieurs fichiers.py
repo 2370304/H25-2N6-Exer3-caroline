@@ -18,4 +18,4 @@ for cours in os.listdir():
     numero=numero[1:]
     numero=numero.zfill(2)
     nouveau_nom=(f"{numero} {nom_cour} {sujet}{ext}")
-    os.rename(cours,nom_cour)
+    os.rename(cours,nouveau_nom)
