@@ -1,6 +1,6 @@
 import os                             # N'enlevez pas ces lignes.
 os.chdir(os.path.dirname(__file__))   # Elles permettent de se positionner dans le répertoire de ce script
-
+print('Bonjour')
 
 
 # Importez le module csv
